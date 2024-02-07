@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-image: url(bg_image.jpg) ;
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: repeat(3);
+    gap: 3.5rem;
+
+}
+
+#header h1{
+    font-size: 3.5rem;
+    padding-left: 30px;
+    color: red;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+
+}
+.main{
+
+    width: 400px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.735);
+    justify-self: center;
+
+    border-radius: 10px;
+
+}
+
+
+.box{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+    margin-top: 30px;
+    padding-right: 60px;
+    gap: 1rem;
+}
+
+.signin {
+}
+.button {
+    width: 100%;
+    height: 40px;
+    background-color: red;
+    color: white;
+    font-size: medium;
+    font-weight: 700;
+    border-radius: 5px;
+
+}
+.forget {
+    color: white;
+    align-self: center;
+}
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+.newtonetflix {
+    color: rgb(193, 181, 181);
+    border: solid 1px black;
+    font-size: medium;
+}
+.learnmore {
+    font-size: small;
+}
+
+.box input{
+    height: 45px;
+    background-color: rgba(0, 0, 0, 0.297);
+    color: white;
+    border: solid 1px white;
+    border-radius: 5px;
+}
+#bb {
+    color: rgb(55, 0, 255);
+}
+#a{
+    color: #ffffff;
+}
+
+#footer{
+
+    width: 100%;
+    height: 270px;
+    background-color: rgba(0, 0, 0, 0.735);
+    padding-left: 150px;
+    padding-right: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 60px;
+}
+
+
+.firstline p {
+    color: #ffffff;
+}
+.secondline {
+    display: flex;
+    justify-content: space-between;
+}
+.secondline a {
+    color: #ffffff;
+}
+.thirdline {
+    display: flex;
+    gap: 6.7rem;
+
+}
+.thirdline a {
+    color: white;
+}
+.fourthline select{
+    height: 30px;
+    width: 150px;
+    background-color: rgba(0, 0, 0, 0.735);
+    color: #ffffff;
+    box-shadow: 2px 2px 2px white; 
+    border-radius: 5px;
+}
